@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/test
+    username: ${MYSQL_USER:laravel}
+    password: ${MYSQL_PASSWORD:laravel}
